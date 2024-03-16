@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        *::before, *::after
+        {
+            box-sizing: inherit;
+        }
+        body
+        {
+            font-family: "Sora", sans-serif;
+            display: flex;
+
+        }
+        .card-item-container
+        {
+            margin-top: 4rem;
+            width: 368px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 5rem auto;
+            /* border: 1px solid; */
+            box-shadow: 19px 5px 30px rgba(229, 234, 240, 1);
+            border-radius: 10px;
+            background-color: #FFFFFF;
+        }
+        .card-image
+        {
+            width: 336px;
+            margin: 0 auto;
+        }
+        .card-image img
+        {
+            width: 100%;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            border-radius: 10px;
+        }
+        .card-item-container > .text-item
+        {
+            display: flex;
+            width: 90px;
+            border-radius: 10px;
+            margin-left: 16px;
+            padding: 2px 16px;
+            font-weight: 500;
+            color: #883AE1;
+            background-color: #E6D6FC;
+            margin-bottom: 16px;
+        }
+        .card-text-item-container h2
+        {
+            color: #20293A;
+            margin-left: 16px;
+            margin-bottom: 6px;        
+        }
+        .card-text-item-container p
+        {
+            margin-left: 16px;
+            color: #6C727F;
+        }
+        .text-item-p
+        {
+            margin-bottom: 30px;
+            text-align: left;
+            font-size: 15px;
+        }
+        .tex-item-name
+        {
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Card</title>
+</head>
+<body>
+    <article class="card-item-container">
+        <div class="card-image">
+            <img src="./dccl--responsive-mini-blog-card/dccl--responsive-mini-blog-card/cactus_img.jpg" alt="cactus_img">
+        </div>
+        <div class="text-item">Design</div>
+        <div class="card-text-item-container">
+            <h2>Embracing Minimalism</h2>
+            <p class="text-item-p">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+            <p class="tex-item-name">Annie Spratt</p>
+        </div>
+    </article>
+</body>
+</html>
